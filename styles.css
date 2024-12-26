@@ -14,10 +14,13 @@ body {
     font-size: 18px;
 }
 
+a, button {
+    font-size: 18px;
+}
+
 a {
     color: #bec0c2;
     text-decoration: none;
-    font-size: 18px;
 }
 
 button {
@@ -27,19 +30,16 @@ button {
     height: 40px;
     color: #E5E7EB;
     border: 0px;
-    font-size: 18px;
 }
 
 .container,
 footer {
     padding: 0 200px 0 200px;
-
 }
 
 .container-1 {
     color: #bec0c2;
     background-color: #1F2937;
-    padding: 0 200px 0px 200px;
 }
 
 header {
@@ -68,10 +68,11 @@ ul {
 }
 
 .header.left {
-    width: 450px;
+    /* width: 450px; */
+    flex: 1;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 16px;
 }
 
@@ -90,7 +91,7 @@ ul {
 }
 
 .container-2 {
-    padding: 48px 200px 64px 200px;
+    padding: 48px 0 64px 0;
     display: flex;
     flex-direction: column;
     min-height: 500px;
@@ -115,7 +116,8 @@ ul {
 }
 
 .img {
-    width: 170px;
+    max-width: 170px;
+    width: 100%;
     height: 150px;
     border: 4px solid rgb(96, 156, 188);
     border-radius: 8px;
