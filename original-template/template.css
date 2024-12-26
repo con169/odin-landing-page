@@ -56,12 +56,6 @@ header {
     font-weight: bold;
 }
 
-.header-logo img {
-    width: 15%;
-    height: 15%;
-    object-fit: contain;
-}
-
 ul {
     list-style-type: none;
     display: flex;
@@ -78,7 +72,8 @@ ul {
     width: 450px;
     display: flex;
     flex-flow: column nowrap;
-    gap: 8px;
+    justify-content: space-between;
+    gap: 16px;
 }
 
 .header.left h1 {
@@ -93,13 +88,6 @@ ul {
     background-color: rgb(103, 103, 114);
     width: 50%;
     height: auto;
-}
-
-.header.right img {
-    object-fit: contain;
-    height: auto;
-    width: 100%;
-    max-height: 100%;
 }
 
 .container-2 {
